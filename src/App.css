@@ -1,38 +1,71 @@
 .App {
-  text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Section{
+  display: inline-block;
+  margin: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+nav{
+  background-color: black;
+  height: 40px;
+  margin-top: 0;
+  color: white !important;
+  text-decoration: none;
+  
+}
+
+nav ul li {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style: none;
+  display: inline-flex;
+  vertical-align: top;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a {
+text-decoration: none;
+color: white;
+display: block;
+transition: .3s background-color;
+margin-right: 100px;
+}
+
+.Bar{
+  display: block;
+transition: .3s background-color;
+margin-right: 20px;
+}
+
+.Live{
+  background-color: white;
+  height: 40px;
+  margin-top: 0;
+  color: black !important;
+  text-decoration: none;
+  
+}
+
+.live ul li {
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: inline-flex;
+  vertical-align: top;
+}
+
+.Live a {
+text-decoration: none;
+color: white;
+display: block;
+transition: .3s background-color;
+margin-right: 100px;
 }
